@@ -7,7 +7,7 @@ export default function HomePage() {
         <h1>Home</h1>
       </header>
       <main>
-        <p>>Welcome to my first React app on GitHub Pages.</p>
+        <p>>Welcome to my first React app on GitHub Pages</p>
 
         <article>
           <h2>Displaying images in React</h2>
