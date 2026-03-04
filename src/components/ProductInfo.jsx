@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Accordion from "./Accordion";
 
 export default function ProductInfo({ product }) {
   const [selectedColor, setSelectedColor] = useState(
@@ -11,18 +10,20 @@ export default function ProductInfo({ product }) {
     product.discountPrice > 0 ? product.discountPrice : product.price;
 
   return (
-    <div className="product-info">
-      <h1>{product.title}</h1>
+    <div className="product-side product-info">
+      <h1 className="product-side__title">{product.title}</h1>
 
       {/* COLORS */}
-      <div className="colors">
-        <p>Color:</p>
-        <div className="color-options">
+      <div className="product-side__group colors">
+        <p className="product-side__label">
+          Color <span>| {selectedColor || ""}</span>
+        </p>
+        <div className="product-side__colors color-options">
           {product.colors?.map((color, i) => (
             <button
               key={i}
               style={{ backgroundColor: color }}
-              className={selectedColor === color ? "active" : ""}
+              className={`product-side__swatch ${selectedColor === color ? "is-active active" : ""}`}
               onClick={() => setSelectedColor(color)}
             />
           ))}
@@ -30,13 +31,15 @@ export default function ProductInfo({ product }) {
       </div>
 
       {/* SIZES */}
-      <div className="sizes">
-        <p>Size:</p>
-        <div className="size-options">
+      <div className="product-side__group sizes">
+        <p className="product-side__label">
+          Size <span>| {selectedSize || ""}</span>
+        </p>
+        <div className="product-side__sizes size-options">
           {product.sizes?.map((size, i) => (
             <button
               key={i}
-              className={selectedSize === size ? "active" : ""}
+              className={`product-side__size ${selectedSize === size ? "is-active active" : ""}`}
               onClick={() => setSelectedSize(size)}
             >
               {size}
@@ -46,33 +49,22 @@ export default function ProductInfo({ product }) {
       </div>
 
       {/* PRICE */}
-      <div className="price">
+      <div className="product-side__price-row price">
         {product.discountPrice > 0 && (
-          <span className="old">
+          <span className="product-side__old-price old">
             {product.price} {product.currency}
           </span>
         )}
-        <span className="new">
+        <span className="product-side__price new">
           {finalPrice} {product.currency}
         </span>
       </div>
 
       {/* BUTTONS */}
-      <div className="actions">
-        <button className="buy">BUY PRODUCT</button>
-        <button className="cart">ADD TO CART</button>
+      <div className="product-side__actions actions">
+        <button className="product-side__buy buy">BUY PRODUCT</button>
+        <button className="product-side__cart cart">ADD TO CART</button>
       </div>
-
-      {/* ACCORDIONS */}
-      <Accordion title="Description">
-        <p>{product.description}</p>
-      </Accordion>
-
-      <Accordion title="Details">
-        <p>Material: {product.material}</p>
-        <p>Weight: {product.weight}</p>
-        <p>Dimensions: {product.dimensions}</p>
-      </Accordion>
     </div>
   );
 }
