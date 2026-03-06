@@ -1,0 +1,12 @@
+.banner a {
+  color: var(--tekst_hvid);
+  padding: 2rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+  background-color: var(--Card__Cardtiteltext);
+}

@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav>
       <div className="nav-links">
         <NavLink to="/">
-          <img src="./images/components/logo.svg" alt="Logo" />
+          <img src="./images/components/whitenav/logo.svg" alt="Logo" />
         </NavLink>
         <img src="./images/components/whitenav/navline.svg" alt="line" />
         <NavLink to="/about">About</NavLink>

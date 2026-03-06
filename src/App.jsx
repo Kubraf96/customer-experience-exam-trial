@@ -5,11 +5,14 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ProductPage from "./pages/ProductPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import Banner from "./components/banner";
 
 export default function App() {
   return (
     <>
+      <Banner />
       <Navbar />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
