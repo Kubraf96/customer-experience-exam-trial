@@ -4,7 +4,7 @@ export default function NotFoundPage() {
   return (
     <>
       <header>
-        <h1 className="not-found-title">404</h1>
+        <h2 className="not-found-title">404</h2>
       </header>
       <main className="not-found">
         <p>Sorry, the page you're looking for doesn't exist.</p>

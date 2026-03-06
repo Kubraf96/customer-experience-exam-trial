@@ -2,7 +2,7 @@ export default function ContactPage() {
   return (
     <>
       <header>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
       </header>
       <main>
         <p>This is the contact page.</p>
