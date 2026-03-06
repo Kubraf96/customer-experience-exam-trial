@@ -17,7 +17,7 @@ export default function Navbar() {
         <img src="./images/components/whitenav/navline.svg" alt="line" />
         <NavLink to="/sale">Sale</NavLink>
       </div>
-      <div>
+      <div className="nav-icons">
         <img src="./images/components/whitenav/search.svg" alt="search" />
         <NavLink to="/pinned">
           <img src="./images/components/whitenav/pin.svg" alt="pinned pieces" />
