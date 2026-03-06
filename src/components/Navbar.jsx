@@ -16,5 +16,6 @@ export default function Navbar() {
       <img src="./images/components/navline.svg" alt="line" />
       <NavLink to="/sale">Sale</NavLink>
     </nav>
+    <div></div>
   );
 }
