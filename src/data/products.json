@@ -17,8 +17,8 @@
     "rating": 4.6,
     "reviewsCount": 24,
     "colors": ["Sterling Silver"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
-    "material": "85% cotton, 15% polyester",
+    "sizes": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
+    "material": "85& Sterling Silver, 15% Rhodium",
     "tags": ["ring", "heart", "silver", "jewelry"]
   },
   {
@@ -183,22 +183,25 @@
   },
   {
     "id": "8",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/337095d006f2425e80ad36f78d82288a/5f0e1003523f49999d5e76434c7feed5.jpg?imwidth=1800",
+      "https://img01.ztat.net/article/spp-media-p1/fa4dc91f0a5543778cec575395d65578/70ac1a8c14ad43c985ab7cc10315b41a.jpg?imwidth=156&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/f8de1c7cac5740ee805c9038dfed4717/2fae8b0a7c574aa7b22b30d43b903292.jpg?imwidth=156"
+    ],
+    "brandName": "YOURTURN",
+    "title": "Jumper",
+    "description": "A comfortable and versatile jumper, perfect for layering during cooler months.",
+    "category": "Tops, Sweaters, Knitwear",
+    "price": 320,
     "currency": "DKK",
-    "discountPrice": 0,
-    "stock": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "colors": [],
+    "discountPrice": 255,
+    "stock": 34,
+    "rating": 3.7,
+    "reviewsCount": 17,
+    "colors": ["Black/Beige"],
     "sizes": [34, 36, 38, 40, 42, 44, 46],
-    "material": "",
-    "dimensions": "",
-    "tags": []
+    "material": "70% cotton, 30% polyester",
+    "tags": ["Jumper, Sweater, Knitwear, Comfortable"]
   },
   {
     "id": "9",
