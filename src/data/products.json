@@ -210,7 +210,7 @@
       "www.daxuen.com/cdn/shop/files/60_4bbb7470-3c14-4b15-946d-1be4524202e9.jpg?v=1711405589&width=1600",
       "www.daxuen.com/cdn/shop/products/Sb4a6172bb277469cbfbcf0289abb7d620.jpg?v=1711405589&width=1600"
     ],
-    "brandName": "Daxuen",
+    "brandName": "DAXUEN",
     "title": "Motorcycle Racing Vintage Jacket",
     "description": "A vintage-inspired jacket designed for motorcycle racing, combining style and functionality.",
     "category": "Jackets, Outerwear",
@@ -308,22 +308,26 @@
   },
   {
     "id": "14",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/8209fbce15134e4cb741db9f69e1e946/2456d873a05e481491613ad604fb5067.jpg?imwidth=762&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/2571fa9c34a549e3b62aa2b418ca0e97/2c7ef54ca80e4b6ba0136f6e8a05d6dd.jpg?imwidth=1800",
+      "https://img01.ztat.net/article/spp-media-p1/b02dd0a6e7984e3c95ab25f3c791c07c/7bb84c0eddfb4c74a52ad41c14b2dd15.jpg?imwidth=1800"
+    ],
+    "brandName": "FAINZ",
+    "title": "TRIBAL CHAIN - Necklace",
+    "description": "A bold necklace featuring a tribal chain design, perfect for adding an edgy touch to any outfit.",
+    "category": "Necklaces, Jewelry",
+    "price": 520,
     "currency": "DKK",
-    "discountPrice": 0,
-    "stock": 0,
+    "discountPrice": 380,
+    "stock": 36,
     "rating": 0,
     "reviewsCount": 0,
-    "colors": [],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
-    "material": "",
+    "colors": ["Silver coloured"],
+    "sizes": ["One Size"],
+    "material": "Stainless steel",
     "dimensions": "",
-    "tags": []
+    "tags": ["Necklace", "Chain", "Tribal", "Jewelry", "Accessories"]
   },
   {
     "id": "15",
