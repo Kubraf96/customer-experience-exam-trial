@@ -329,22 +329,26 @@
   },
   {
     "id": "15",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://www.daxuen.com/cdn/shop/files/2_d644f4f3-423c-4276-9d7a-93e481648ba0.jpg?v=1768519178&width=1600 ",
+      "www.daxuen.com/cdn/shop/products/S048620bc7577495f91c6a8384f183a91M.jpg?v=1768519178&width=1600",
+      "www.daxuen.com/cdn/shop/products/S8555434835b74d46920cb0b8773b07d6s.jpg?v=1701841751&width=1600"
+    ],
+    "brandName": "DAXUEN",
+    "title": "Blue Star Shoes",
+    "description": "A stylish pair of blue star shoes for any occasion.",
+    "category": "Shoes, Sneakers",
+    "price": 1199,
     "currency": "DKK",
     "discountPrice": 0,
-    "stock": 0,
+    "stock": 7,
     "rating": 0,
     "reviewsCount": 0,
-    "colors": [],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
-    "material": "",
+    "colors": ["Blue", "White"],
+    "sizes": [38, 39, 40, 41, 42, 43, 44],
+    "material": ["Polyester", "Rubber"],
     "dimensions": "",
-    "tags": []
+    "tags": ["Shoes", "Sneakers"]
   },
   {
     "id": "16",
