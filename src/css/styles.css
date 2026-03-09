@@ -29,6 +29,23 @@
   --active-nav: url("./src/assets/components/active-nav.svg");
 }
 
+.whitebutton {
+  background-color: var(--tekst_hvid);
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.whitebutton h5 {
+  margin: 0%;
+}
+
+.whitebutton:hover {
+  background-color: var(--tekst_hvid);
+  border: 3px solid var(--CTA__CTAgreen);
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
 /* define text styles */
 .h1,
 h1 {
@@ -63,7 +80,7 @@ h4 {
 h5 {
   font-size: 24px;
   font-family: var(--font-sans);
-  font-weight: 400;
+  font-weight: 100;
 }
 .h6,
 h6 {
