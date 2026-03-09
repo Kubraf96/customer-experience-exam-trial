@@ -251,22 +251,24 @@
   },
   {
     "id": "11",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://www.youngla.com/cdn/shop/files/4149_off-white_002_08_13_deek_ecomm.jpg?v=1755099670&width=1800",
+      "https://www.youngla.com/cdn/shop/files/47_63967275-8325-4cc8-9360-bf9b50d66ae8.jpg?v=1755099670&width=800"
+    ],
+    "brandName": "YoungLA",
+    "title": "4149 - Gothic Tees",
+    "description": "This tee drops heavy in both fabric and attitude, with bold gothic-inspired graphics across the back. The clean silhouette balances structure and comfort, giving it a sharp yet wearable edge. Its a strong statement piece that holds its shape and energy all day.",
+    "category": "Tops, Shirts",
+    "price": 499,
     "currency": "DKK",
-    "discountPrice": 0,
-    "stock": 0,
-    "rating": 0,
-    "reviewsCount": 0,
-    "colors": [],
+    "discountPrice": 250,
+    "stock": 45,
+    "rating": 4.6,
+    "reviewsCount": 69,
+    "colors": ["Black Wash, Brown wash, Off White"],
     "sizes": [34, 36, 38, 40, 42, 44, 46],
-    "material": "",
-    "dimensions": "",
-    "tags": []
+    "material": "100% cotton",
+    "tags": ["Oversized, Tee, Gothic, Graphic, Cotton"]
   },
   {
     "id": "12",
