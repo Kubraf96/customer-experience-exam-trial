@@ -1,0 +1,47 @@
+.hero {
+  padding: 2rem;
+}
+
+.slider-container {
+  height: 70vh;
+  width: 40vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 64px;
+}
+
+.slide,
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {
+  opacity: 0;
+  height: 70vh;
+  width: 40vw;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  transition: 0.4 ease;
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide1 {
+  background-image: url("../assets/images/hero1.jpg");
+}
+
+.slide2 {
+  background-image: url("../assets/images/hero2.jpg");
+}
+
+.slide3 {
+  background-image: url("../assets/images/hero3.jpg");
+}
+
+.slide4 {
+  background-image: url("../assets/images/hero4.jpg");
+}
