@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Lacquer&display=swap");
 
 :root {
-  line-height: 1.5;
-  font-weight: 400;
   color: #ffffff;
   background-color: #181e17;
+  background-image: var(--BGswirl);
+  background-repeat: repeat-y;
+  background-size: auto;
+
   --Tekstfarve: #ffffff;
   --Baggrundsfarve: #181e17;
   --CTA__CTArd: #bb0f0d;
@@ -27,23 +29,7 @@
     "Helvetica Neue", Arial, sans-serif;
   --font-display: "Lacquer", serif;
   --active-nav: url("./src/assets/components/active-nav.svg");
-}
-
-.whitebutton {
-  background-color: var(--tekst_hvid);
-  border: 3px solid transparent;
-  cursor: pointer;
-  padding: 1rem 2rem;
-}
-.whitebutton h5 {
-  margin: 0%;
-}
-
-.whitebutton:hover {
-  background-color: var(--tekst_hvid);
-  border: 3px solid var(--CTA__CTAgreen);
-  cursor: pointer;
-  padding: 1rem 2rem;
+  --BGswirl: url("./src/assets/BGswirl.svg");
 }
 
 /* define text styles */
@@ -109,20 +95,6 @@ main {
   padding: 2rem;
 }
 
-main img {
-  display: block;
-  margin: 1rem 0;
-  border-radius: 8px;
-}
-
-.img-small {
-  width: 100px;
-}
-
-.img-medium {
-  width: 200px;
-}
-
 /* 404 */
 .not-found-title {
   font-size: 5rem;
@@ -148,4 +120,21 @@ main img {
 
 .not-found-link:hover {
   background-color: #5a60d7;
+}
+
+.whitebutton {
+  background-color: var(--tekst_hvid);
+  border: 3px solid transparent;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.whitebutton h5 {
+  margin: 0%;
+}
+
+.whitebutton:hover {
+  background-color: var(--tekst_hvid);
+  border: 3px solid var(--CTA__CTAgreen);
+  cursor: pointer;
+  padding: 1rem 2rem;
 }
