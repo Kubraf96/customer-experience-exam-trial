@@ -1,13 +1,17 @@
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
+  background-color: var(--Tekstfarve);
 }
 
 .slider-container {
+  background-color: var(--Tekstfarve);
   height: 70vh;
-  width: 40vw;
+  width: 72vw;
   position: relative;
   overflow: hidden;
-  border-radius: 64px;
 }
 
 .slide,
@@ -18,7 +22,7 @@
 .slide5 {
   opacity: 0;
   height: 70vh;
-  width: 40vw;
+  width: 72vw;
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -44,4 +48,50 @@
 
 .slide4 {
   background-image: url("../assets/images/hero4.jpg");
+}
+
+.slider-controls {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.slider-button {
+  background-color: transparent;
+  font-size: 30px;
+  border: transparent;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.prev {
+  font-size: 30px;
+}
+
+.prev-arrow {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.next {
+  font-size: 30px;
+}
+
+.next-arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 100;
+  h5 {
+    margin: 0%;
+  }
 }
