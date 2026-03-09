@@ -291,22 +291,26 @@
   },
   {
     "id": "13",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://www.routeone.eu/cdn/shop/files/001189430_1.jpg?v=1772555200&width=2000",
+      "https://www.routeone.eu/cdn/shop/files/001189430.jpg?v=1772555200&width=2000",
+      "https://www.routeone.eu/cdn/shop/files/001189430_2.jpg?v=1772555200&width=2000"
+    ],
+    "brandName": "Santa Cruz",
+    "title": "Opus Dot Wrap Sunglasses",
+    "description": "A pair of stylish sunglasses with a dot wrap design, perfect for adding a touch of elegance to any outfit.",
+    "category": "Sunglasses, Accessories",
+    "price": 380,
     "currency": "DKK",
     "discountPrice": 0,
-    "stock": 0,
+    "stock": 46,
     "rating": 0,
     "reviewsCount": 0,
-    "colors": [],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "colors": ["Woodcut Camo/Black"],
+    "sizes": ["One Size"],
     "material": "",
     "dimensions": "",
-    "tags": []
+    "tags": ["Sunglasses, Accessories"]
   },
   {
     "id": "14",
