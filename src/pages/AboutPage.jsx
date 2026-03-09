@@ -1,3 +1,5 @@
+import "../css/about.css";
+
 export default function AboutPage() {
   return (
     <>
