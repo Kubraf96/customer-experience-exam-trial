@@ -338,24 +338,26 @@
   },
   {
     "id": "16",
-    "images": ["https://www.daxuen.com/cdn/shop/files/3_c8e2b696-b6e1-46a3-9661-22a8c36084d4.jpg?v=1743931166&width=1600 ",
-    "https://www.daxuen.com/cdn/shop/files/S1852062fcde643c4b0425d94f56058d7E.webp?v=1743931166&width=1600",
-    "https://www.daxuen.com/cdn/shop/files/Sbe67f622dcda450c897a73422df67f02v.webp?v=1743931166&width=1600"],
+    "images": [
+      "https://www.daxuen.com/cdn/shop/files/3_c8e2b696-b6e1-46a3-9661-22a8c36084d4.jpg?v=1743931166&width=1600 ",
+      "https://www.daxuen.com/cdn/shop/files/S1852062fcde643c4b0425d94f56058d7E.webp?v=1743931166&width=1600",
+      "https://www.daxuen.com/cdn/shop/files/Sbe67f622dcda450c897a73422df67f02v.webp?v=1743931166&width=1600"
+    ],
     "brandName": "DAXUEN",
     "title": "Y2K Wanderer Handbag",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "description": "A trendy handbag that combines Y2K, style and functionality.",
+    "category": "Bags, Accessories, Handbags",
+    "price": 899,
     "currency": "DKK",
     "discountPrice": 0,
-    "stock": 0,
+    "stock": 13,
     "rating": 0,
     "reviewsCount": 0,
     "colors": ["Grey"],
     "sizes": ["One Size"],
-    "material": "",
+    "material": "PU",
     "dimensions": "",
-    "tags": []
+    "tags": ["Handbags", "Bags", "Accessories", "Y2K fashion"]
   },
   {
     "id": "17",
