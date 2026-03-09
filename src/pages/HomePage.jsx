@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <>
       <header>
-        <h1>Home</h1>
+        <h2>Home</h2>
       </header>
       <main>
         <p>Welcome to my first React app on GitHub Pages</p>

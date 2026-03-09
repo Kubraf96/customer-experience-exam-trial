@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <>
       <header>
-        <h1>About</h1>
+        <h2>About</h2>
       </header>
       <main>
         <p>This is the about page.</p>

@@ -1,0 +1,56 @@
+/* Navigation */
+
+nav {
+  font-family: var(--font-display);
+  font-size: 24px;
+  background-color: var(--nav_BG);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  padding: 1rem 2rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-links a {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+nav a {
+  color: var(--Tekstfarve);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-icons img {
+  width: 32px;
+  height: 32px;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+nav a.active {
+  background-image: var(--active-nav);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
