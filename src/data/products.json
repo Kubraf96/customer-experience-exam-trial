@@ -357,21 +357,25 @@
   },
   {
     "id": "17",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/eb96e435bcd4437fa6dc049163ddc56e/c106dd7cc285401cbdb5213f19ccff6f.jpg?imwidth=1800&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/af553b314a804d9b9c4097c8072be8b4/95dbeaed887644c685a1d326b5304545.jpg?imwidth=1800",
+      "https://img01.ztat.net/article/spp-media-p1/737b820ef8714d85ae8b41774aa2bc52/bd94746e46134fa8a44dacea09a36844.jpg?imwidth=1800"
+    ],
+    "brandName": "Zign",
+    "title": "Black Belt",
+    "description": "A stylish black belt for any occasion.",
+    "category": "Belts, Accessories",
+    "price": 129,
     "currency": "DKK",
     "discountPrice": 0,
-    "stock": 0,
+    "stock": 20,
     "rating": 0,
     "reviewsCount": 0,
-    "colors": [],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "colors": [Black],
+    "sizes": ["One Size"],
     "dimensions": "",
-    "tags": []
+    "tags": ["belt"]
   },
   {
     "id": "18",
