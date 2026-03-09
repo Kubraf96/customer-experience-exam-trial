@@ -84,7 +84,7 @@
     "rating": 4.9,
     "reviewsCount": 14,
     "colors": ["Black"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["S", "M", "L", "XL"],
     "material": "15% polyester, 85% cotton",
     "tags": ["jeans", "pants", "pleated", "distressed"]
   },
@@ -106,7 +106,7 @@
     "rating": 4.8,
     "reviewsCount": 317,
     "colors": ["Washed Denim"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["XS", "S", "M", "L", "XL"],
     "material": "100% cotton denim",
     "tags": [
       "Stars,",
@@ -132,7 +132,7 @@
     "rating": 0.0,
     "reviewsCount": 0,
     "colors": ["Vintage Black"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["S", "M", "L", "XL"],
     "material": "80 % cotton, 20 % polyester",
     "tags": [
       "Clothing, Hoodie, Boxy Fit, Venom Graphic, Cotton Blend, Casual Wear, Layering"
@@ -156,7 +156,7 @@
     "rating": 3.7,
     "reviewsCount": 33,
     "colors": ["Asphalt, Black/White"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["XS", "S", "M", "L", "XL"],
     "material": "100% cotton",
     "tags": ["Baggy fit, Long sleeves, Double layer, Unisex, Regular fit"]
   },
@@ -177,7 +177,7 @@
     "rating": 4.2,
     "reviewsCount": 4,
     "colors": ["Black"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["XXS", "XS", "S", "M", "L", "XL"],
     "material": "55% cotton, 35% polyester, and 10% spandex",
     "tags": ["Top, Seamless, Athletic Wear, Black, Comfortable, Stretchy"]
   },
@@ -199,7 +199,7 @@
     "rating": 3.7,
     "reviewsCount": 17,
     "colors": ["Black/Beige"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["XS", "S", "M", "L", "XL"],
     "material": "70% cotton, 30% polyester",
     "tags": ["Jumper, Sweater, Knitwear, Comfortable"]
   },
@@ -221,7 +221,7 @@
     "rating": 5.0,
     "reviewsCount": 3,
     "colors": ["Black, Green"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
     "material": "100% cotton",
     "tags": [
       "Loose fit, baggy fit, vintage style, motorcycle racing jacket, outerwear"
@@ -245,7 +245,7 @@
     "rating": 4.8,
     "reviewsCount": 38,
     "colors": ["Black"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
     "material": "100% polyester, Faux leather",
     "tags": ["Jacket, Bomber Jacket, Faux Leather, Oversized Fit, Unisex"]
   },
@@ -266,7 +266,7 @@
     "rating": 4.6,
     "reviewsCount": 69,
     "colors": ["Black Wash, Brown wash, Off White"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "material": "100% cotton",
     "tags": ["Oversized, Tee, Gothic, Graphic, Cotton"]
   },
@@ -288,7 +288,7 @@
     "rating": 2.9,
     "reviewsCount": 24,
     "colors": ["Black"],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
     "material": "100% polyester",
     "tags": ["Skinny fit, long sleeves, mesh top, unisex, velvet print, Tight"]
   },
