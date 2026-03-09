@@ -372,22 +372,26 @@
   },
   {
     "id": "18",
-    "images": [],
-    "brandName": "",
-    "title": "",
-    "description": "",
-    "category": "",
-    "price": 599,
+    "images": [
+      "https://img01.ztat.net/article/spp-media-p1/9900fe9d6c5041dc892ccd61140f2aa6/8c901243fe5c477687c94543d244a930.jpg?imwidth=156&filter=packshot",
+      "https://img01.ztat.net/article/spp-media-p1/4b38eeebd67d49f98939c31b806bd7d3/25453ee543bb45f69fa955946ad172a2.jpg?imwidth=156",
+      "https://img01.ztat.net/article/spp-media-p1/a6e15aef2efa491ba87942bd9ce77f0f/3018d8031fe4403a8fa64cb315acb373.jpg?imwidth=156"
+    ],
+    "brandName": "Vans",
+    "title": "KNU SKOOL Skate shoes",
+    "description": "The KNU SKOOL is a classic skate shoe that combines style and performance. With its durable construction and comfortable fit, it's perfect for both skating and everyday wear.",
+    "category": "Shoes, Skate shoes",
+    "price": 1100,
     "currency": "DKK",
-    "discountPrice": 0,
-    "stock": 0,
+    "discountPrice": 900,
+    "stock": 39,
     "rating": 0,
     "reviewsCount": 0,
-    "colors": [],
-    "sizes": [34, 36, 38, 40, 42, 44, 46],
+    "colors": ["Black", "White"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46],
     "material": "",
     "dimensions": "",
-    "tags": []
+    "tags": ["Shoes", "Skate shoes"]
   },
   {
     "id": "19",
@@ -409,8 +413,8 @@
     "reviewsCount": 0,
     "colors": [],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43, 44],
-    "material": "Leather",
+    "material": "Upper material: Leather; Lining: Combination of leather and textile lining; Sole: Abrasion-proof rubber",
     "dimensions": "",
-    "tags": []
+    "tags": ["shoes", "boots"]
   }
 ]
