@@ -41,9 +41,18 @@ export default function ProductPage() {
           </Accordion>
 
           <Accordion title="Details">
-            <p>Material: {product.material}</p>
-            <p>Weight: {product.weight}</p>
-            <p>Dimensions: {product.dimensions}</p>
+            <p>Description: {product.description}</p>
+          </Accordion>
+          <Accordion title="Size & Fit">
+            <button>Size Chart</button>
+          </Accordion>
+          <Accordion title="Shipping & Returns">
+            <p>
+              Shipping options available at checkout. Returns and exchanges
+              within 30 days in original condition. Warranty applies to
+              manufacturing defects as defined by consumer protection
+              regulations..
+            </p>
           </Accordion>
         </div>
 
