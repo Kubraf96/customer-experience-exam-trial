@@ -6,7 +6,7 @@ export default function AboutPage() {
       </header>
       <main>
         <section>
-          <h1>who are we</h1>
+          <h2>who are we</h2>
         </section>
         <section>
           <h2>environment</h2>
