@@ -1,5 +1,5 @@
 import products from "../data/products.json";
-import ProductGallery from "../components/ProductGallery";
+import DetaljeGallery from "../components/detaljeGallery";
 import ProductInfo from "../components/ProductInfo";
 import Accordion from "../components/DropDownBar";
 import "../css/ProductSide.css";
@@ -26,7 +26,7 @@ const fallbackProduct = {
   tags: [],
 };
 
-export default function ProductPage() {
+export default function DetaljePage() {
   const product =
     products.find((item) => item && (item.title || item.images?.length > 0)) ||
     products[0] ||
@@ -57,7 +57,7 @@ export default function ProductPage() {
         </div>
 
         <div className="left product-page__gallery-column">
-          <ProductGallery images={product.images} />
+          <DetaljeGallery images={product.images} />
         </div>
 
         <div className="right product-page__info-column">
