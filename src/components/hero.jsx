@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/homepage.css";
+import "../css/hero.css";
 
 export default function Hero() {
   const slideClasses = ["slide1", "slide2", "slide3", "slide4"];

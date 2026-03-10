@@ -1,4 +1,3 @@
-import "../css/homepage.css";
 import Hero from "../components/hero";
 import HeroContent from "../components/heroContent";
 
