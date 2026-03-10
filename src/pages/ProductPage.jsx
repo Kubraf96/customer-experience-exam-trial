@@ -44,7 +44,7 @@ export default function ProductPage() {
             <p>{product.description}</p>
           </Accordion>
           <Accordion title="Size & Fit">
-            <button>Size Chart</button>
+            <button className="blackbutton">Size Chart</button>
           </Accordion>
           <Accordion title="Shipping & Returns">
             <p>
