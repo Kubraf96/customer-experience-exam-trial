@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import ProductPage from "./pages/ProductPage";
+import ProductPage from "./pages/detaljeSide";
 import NotFoundPage from "./pages/NotFoundPage";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
