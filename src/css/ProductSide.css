@@ -91,6 +91,13 @@
   text-transform: lowercase;
 }
 
+.product-side__scribble {
+  display: block;
+  width: min(240px, 75%);
+  height: auto;
+  margin: -6px 0 20px;
+}
+
 .product-side__meta {
   margin: 14px 0 0;
   font-size: 1.6rem;
