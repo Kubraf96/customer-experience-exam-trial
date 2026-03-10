@@ -13,7 +13,7 @@ export default function Navbar() {
         <img src="../src/assets/components/whitenav/navline.svg" alt="line" />
         <NavLink to="/contact">Contact</NavLink>
         <img src="../src/assets/components/whitenav/navline.svg" alt="line" />
-        <NavLink to="/product/0">Product</NavLink>
+        <NavLink to="/products">Product</NavLink>
         <img src="../src/assets/components/whitenav/navline.svg" alt="line" />
         <NavLink to="/sale">Sale</NavLink>
       </div>
