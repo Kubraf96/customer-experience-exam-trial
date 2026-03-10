@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ProductGallery({ images }) {
+export default function DetaljeGallery({ images }) {
   const [selectedImage, setSelectedImage] = useState(images?.[0] || "");
 
   return (
