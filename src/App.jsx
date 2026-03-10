@@ -7,10 +7,11 @@ import ProductPage from "./pages/detaljeSide";
 import NotFoundPage from "./pages/NotFoundPage";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
+import "./css/app.css";
 
 export default function App() {
   return (
-    <>
+    <div className="app">
       <Banner />
       <Navbar />
 
@@ -22,6 +23,6 @@ export default function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
