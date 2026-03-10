@@ -1,10 +1,11 @@
+import { useParams } from "react-router";
 import products from "../data/products.json";
 import DetaljeGallery from "../components/detaljeGallery";
 import ProductInfo from "../components/ProductInfo";
 import Accordion from "../components/DropDownBar";
 import "../css/ProductSide.css";
 
-// Fallback product in case the products.json is empty or has invalid data - Det vil sige, at det er en midlertidig løsning, indtil vi har en rigtig backend, hvor vi kan hente rigtige produkter fra.
+// Fallback product in case products.json is empty or invalid
 const fallbackProduct = {
   id: "",
   images: [],
@@ -27,10 +28,10 @@ const fallbackProduct = {
 };
 
 export default function DetaljePage() {
+  const { id } = useParams();
+
   const product =
-    products.find((item) => item && (item.title || item.images?.length > 0)) ||
-    products[0] ||
-    fallbackProduct;
+    products.find((item) => String(item?.id) === String(id)) || fallbackProduct;
 
   return (
     <div className="product-page product-page-layout">
@@ -43,15 +44,17 @@ export default function DetaljePage() {
           <Accordion title="Details">
             <p>{product.description}</p>
           </Accordion>
+
           <Accordion title="Size & Fit">
             <button className="blackbutton">Size Chart</button>
           </Accordion>
+
           <Accordion title="Shipping & Returns">
             <p>
               Shipping options available at checkout. Returns and exchanges
               within 30 days in original condition. Warranty applies to
               manufacturing defects as defined by consumer protection
-              regulations..
+              regulations.
             </p>
           </Accordion>
         </div>
