@@ -53,9 +53,10 @@ header h1 {
 
 .product-title {
   font-size: 1.25rem;
+  font-family: var(--font-sans);
   font-weight: 600;
   color: #1a1a1a;
-  margin: 0;
+  margin: 8px;
   /* Begræns til 1 linjer */
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -64,11 +65,12 @@ header h1 {
   overflow: hidden;
 }
 
-.product-description {
+.product-brand {
   font-size: 0.9rem;
+  font-family: var(--font-sans);
   color: #666;
   line-height: 1.5;
-  margin: 0;
+  margin: 8px;
   /* Begræns til 2 linjer */
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -78,15 +80,8 @@ header h1 {
 }
 
 .product-price {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: normal;
   color: #000000;
   margin: 0;
-}
-
-.product-stock {
-  font-size: 0.9rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  color: #333;
 }

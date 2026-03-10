@@ -9,9 +9,8 @@ export default function Product({ product }) {
         alt={product.title}
       />
       <div className="product-info">
-        <p className="product-brand">{product.brand}</p>
         <h2 className="product-title">{product.title}</h2>
-        <p className="product-description">{product.description}</p>
+        <p className="product-brand">{product.brand}</p>
         <p className="product-price">DKK {product.price}</p>
       </div>
     </Link>
