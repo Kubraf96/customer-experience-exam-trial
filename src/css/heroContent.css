@@ -1,0 +1,81 @@
+.hero-content {
+  background-color: var(--lyseregrn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+  height: 50vh;
+}
+
+.image1 {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url("../assets/images/streetwear1.jpg");
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url("../assets/images/streetwear2.jpg");
+  background-repeat: no-repeat;
+}
+
+.img-container {
+  width: auto;
+  height: 90%;
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h5 {
+    margin: 0.5rem 0;
+  }
+}
+
+.img-container a,
+.img-container a:link,
+.img-container a:visited {
+  text-decoration: none;
+  color: inherit; /* keeps the link the same color as surrounding text */
+}
+
+.content-title {
+  width: 100%;
+  text-align: left;
+  h2 {
+    margin: 0;
+    position: relative;
+    display: inline-block; /* necessary for absolute ::before positioning */
+    color: var(--Tekstfarve);
+    z-index: 2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+.content-title h2::before {
+  content: attr(
+    data-text
+  ); /* requires adding data-text to the H2 in JSX/HTML */
+  position: absolute;
+  left: 6px; /* horizontal offset of the black copy */
+  top: 3px; /* vertical offset of the black copy */
+  color: #000; /* back text (black) */
+  z-index: -1;
+  pointer-events: none;
+  white-space: pre; /* preserve spacing */
+}
+
+.content-link {
+  width: 100%;
+  align-items: flex-end;
+  margin-top: 0;
+}

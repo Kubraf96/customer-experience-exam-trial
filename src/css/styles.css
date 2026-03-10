@@ -133,7 +133,7 @@ main {
 }
 
 .whitebutton:hover {
-  background-color: var(--Card__Cardtiteltext);
+  background-color: var(--tekst_hvid);
   border: 3px solid var(--CTA__CTAgreen);
   cursor: pointer;
   padding: 1rem 2rem;
