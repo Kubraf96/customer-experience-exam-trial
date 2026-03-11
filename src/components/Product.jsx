@@ -8,11 +8,9 @@ export default function Product({ product }) {
     <Link to={"/product/" + product.id} className="product-card">
       {hasDiscount && <img src={dealBadge} className="deal-badge" alt="Deal" />}
 
-      <img
-        src={product.images?.[0]}
-        className="product-image"
-        alt={product.title}
-      />
+      <div className="product-image">
+        <img src={product.images?.[0]} alt={product.title} />
+      </div>
 
       <div className="product-info">
         <h2 className="product-title">{product.title}</h2>

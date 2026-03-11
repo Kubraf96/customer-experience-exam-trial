@@ -99,6 +99,8 @@ main {
 /* buttons */
 
 .whitebutton {
+  text-decoration: none;
+  width: fit-content;
   background-color: var(--tekst_hvid);
   border: 3px solid transparent;
   cursor: pointer;
@@ -116,6 +118,8 @@ main {
 }
 
 .blackbutton {
+  text-decoration: none;
+  width: fit-content;
   background-color: var(--Card__Cardtiteltext);
   color: var(--tekst_hvid);
   border: 3px solid transparent;

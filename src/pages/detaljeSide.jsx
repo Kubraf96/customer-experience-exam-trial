@@ -53,26 +53,28 @@ export default function DetaljePage() {
             ))}
           </div>
 
-          <Accordion title="Description">
-            <p>{product.description}</p>
-          </Accordion>
+          <div className="accordion-container">
+            <Accordion title="Description">
+              <p>{product.description}</p>
+            </Accordion>
 
-          <Accordion title="Details">
-            <p>{product.description}</p>
-          </Accordion>
+            <Accordion title="Details">
+              <p>{product.description}</p>
+            </Accordion>
 
-          <Accordion title="Size & Fit">
-            <button className="blackbutton">Size Chart</button>
-          </Accordion>
+            <Accordion title="Size & Fit">
+              <button className="blackbutton">Size Chart</button>
+            </Accordion>
 
-          <Accordion title="Shipping & Returns">
-            <p>
-              Shipping options available at checkout. Returns and exchanges
-              within 30 days in original condition. Warranty applies to
-              manufacturing defects as defined by consumer protection
-              regulations.
-            </p>
-          </Accordion>
+            <Accordion title="Shipping & Returns">
+              <p>
+                Shipping options available at checkout. Returns and exchanges
+                within 30 days in original condition. Warranty applies to
+                manufacturing defects as defined by consumer protection
+                regulations.
+              </p>
+            </Accordion>
+          </div>
         </div>
 
         <div className="left product-page__gallery-column">
