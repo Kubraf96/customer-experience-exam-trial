@@ -1,4 +1,5 @@
 /* Layout */
+
 main {
   max-width: 1280px;
   margin: 0 auto;
@@ -10,6 +11,14 @@ header h1 {
   margin: 16px;
   display: flex;
   justify-content: center;
+}
+
+.filterbar-container {
+  background-image: url("../assets/components/grøn_streg.svg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-color: #181e17;
 }
 
 .product-card {
