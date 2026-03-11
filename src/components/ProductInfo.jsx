@@ -1,5 +1,5 @@
 import { useState } from "react";
-import scribble from "../assets/Scribble.svg";
+import scribble from "../assets/scribble.svg";
 
 export default function ProductInfo({ product }) {
   const [selectedColor, setSelectedColor] = useState(
