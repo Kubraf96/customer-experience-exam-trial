@@ -1,5 +1,25 @@
-.filterbar-filter {
-  background-color: #071703;
-  padding: 1rem;
-  margin-bottom: 1rem;
+.filterbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  gap: 12px;
+  padding: 12px;
+  background: #2c352a;
+  border-color: #181e17;
+}
+
+.filterbar-sort {
+  height: 40px;
+  border: 1px solid #bfc7bc;
+  padding: 4px;
+  margin: 12px;
+  font-size: 16px;
+}
+
+.filterbar-filters {
+  height: 40px;
+  border: 1px solid #181e17;
+  padding: 4px;
+  margin: 12px;
+  font-size: 16px;
 }

@@ -11,7 +11,7 @@ export default function Filterbar() {
         <option value="high-low">Highest price</option>
       </select>
 
-      <select classname="filterbar-filters">
+      <select className="filterbar-filters">
         <option value="">Filters</option>
         <option value="color">Size</option>
         <option value="size">Colour</option>
