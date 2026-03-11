@@ -7,8 +7,8 @@ export default function ProductInfo({ product }) {
   );
   const [selectedSize, setSelectedSize] = useState(null);
 
-  const finalPrice =
-    product.discountPrice > 0 ? product.discountPrice : product.price;
+  const hasDiscount = Number(product.discountPrice) < Number(product.price);
+  const finalPrice = hasDiscount ? product.discountPrice : product.price;
 
   return (
     <div className="product-side product-info">
@@ -57,14 +57,16 @@ export default function ProductInfo({ product }) {
 
       {/* PRICE */}
       <div className="product-side__price-row price">
-        {product.discountPrice > 0 && (
+        <span
+          className={`product-side__price new ${hasDiscount ? "" : "product-side__price--regular"}`}
+        >
+          {finalPrice} {product.currency}
+        </span>
+        {hasDiscount && (
           <span className="product-side__old-price old">
             {product.price} {product.currency}
           </span>
         )}
-        <span className="product-side__price new">
-          {finalPrice} {product.currency}
-        </span>
       </div>
 
       {/* BUTTONS */}

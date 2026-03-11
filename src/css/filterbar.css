@@ -11,7 +11,7 @@
 .filterbar-sort {
   height: 40px;
   border: 1px solid #bfc7bc;
-  padding: 4px;
+  padding: 4px 16px 4px 8px;
   margin: 12px;
   font-size: 16px;
 }

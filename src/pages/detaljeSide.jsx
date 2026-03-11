@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams } from "react-router";
 import products from "../data/products.json";
 import DetaljeGallery from "../components/detaljeGallery";
@@ -32,11 +33,26 @@ export default function DetaljePage() {
 
   const product =
     products.find((item) => String(item?.id) === String(id)) || fallbackProduct;
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const selectedImage =
+    product.images?.[activeImageIndex] || product.images?.[0] || "";
 
   return (
     <div className="product-page product-page-layout">
       <div className="container product-page__container">
         <div className="product-page__accordion-column">
+          <div className="product-gallery__thumbnails product-gallery__thumbnails--detached">
+            {product.images?.map((img, index) => (
+              <img
+                key={img}
+                src={img}
+                alt={`${product.title} view ${index + 1}`}
+                onClick={() => setActiveImageIndex(index)}
+                className={`product-gallery__thumb ${selectedImage === img ? "is-active" : ""}`}
+              />
+            ))}
+          </div>
+
           <Accordion title="Description">
             <p>{product.description}</p>
           </Accordion>
@@ -60,7 +76,7 @@ export default function DetaljePage() {
         </div>
 
         <div className="left product-page__gallery-column">
-          <DetaljeGallery images={product.images} />
+          <DetaljeGallery selectedImage={selectedImage} title={product.title} />
         </div>
 
         <div className="right product-page__info-column">
