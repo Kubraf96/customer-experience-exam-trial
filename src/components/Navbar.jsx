@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import "../css/almNav.css";
-import Line from "../assets/components/whitenav/navline.svg";
+import navLine from "../assets/components/whitenav/navline.svg";
 
 export default function Navbar() {
   return (
@@ -9,13 +9,13 @@ export default function Navbar() {
         <NavLink to="/">
           <img src="./src/assets/components/whitenav/logo.svg" alt="Logo" />
         </NavLink>
-        <img src={Line} alt="line" />
+        <img src={navLine} alt="line" />
         <NavLink to="/about">About</NavLink>
-        <img src={Line} alt="line" />
+        <img src={navLine} alt="line" />
         <NavLink to="/contact">Contact</NavLink>
-        <img src={Line} alt="line" />
+        <img src={navLine} alt="line" />
         <NavLink to="/products">Product</NavLink>
-        <img src={Line} alt="line" />
+        <img src={navLine} alt="line" />
         <NavLink to="/sale">Sale</NavLink>
       </div>
       <div className="nav-icons">
