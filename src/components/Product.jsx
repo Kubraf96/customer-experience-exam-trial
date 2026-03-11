@@ -22,7 +22,9 @@ export default function Product({ product }) {
           {hasDiscount ? (
             <>
               <p className="product-discount">DKK {product.discountPrice}</p>
-              <p className="product-price">DKK {product.price}</p>
+              <p className="product-price product-price--old">
+                DKK {product.price}
+              </p>
             </>
           ) : (
             <p className="product-price">DKK {product.price}</p>

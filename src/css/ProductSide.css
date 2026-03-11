@@ -8,9 +8,9 @@
   max-width: 1360px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(220px, 260px) minmax(600px, 760px) minmax(
-      320px,
-      390px
+  grid-template-columns: minmax(200px, 240px) minmax(550px, 700px) minmax(
+      300px,
+      370px
     );
   gap: 16px;
   align-items: start;
@@ -24,31 +24,46 @@
 }
 
 .product-page__accordion-column {
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 24px;
 }
 
 .product-page__accordion-column .accordion:first-child {
-  margin-top: 0;
+  margin-top: 100px;
 }
 
 .product-gallery {
-  display: grid;
-  grid-template-columns: 84px 1fr;
-  gap: 16px;
-  align-items: start;
+  display: flex;
+  justify-content: center;
 }
 
 .product-gallery__thumbnails {
-  display: row;
-  gap: 16px;
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 100%;
+}
+
+.product-gallery__thumbnails--detached {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .product-gallery__thumb {
-  width: 84px;
-  height: 108px;
+  width: 90px;
+  height: 110px;
   object-fit: cover;
   background: #e9e9e9;
   cursor: pointer;
+  display: block;
+  flex: 0 1 90px;
 }
 
 .product-gallery__thumb.is-active {
@@ -59,12 +74,12 @@
 .product-gallery__main {
   background: #e3e3e3;
   border: 1px solid #d6d6d600;
-  min-height: 700px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-self: center;
-  width: 100%;
+  width: 450px;
 }
 
 .product-gallery__main-image {
@@ -76,26 +91,26 @@
 
 .product-side {
   width: 100%;
-  max-width: 390px;
-  padding: 40px 0 0;
+  max-width: 300px;
+  padding: 20px 0 0;
   color: #111;
   font-family: "Inter", "Arial", sans-serif;
 }
 
 .product-side__title {
-  margin: 0 0 18px;
-  font-size: clamp(3.2rem, 4vw, 4.8rem);
+  font-size: clamp(2.2rem, 3vw, 3.2rem);
   line-height: 0.9;
-  font-weight: 800;
+  font-weight: 650;
   letter-spacing: -0.02em;
   text-transform: lowercase;
+  margin-top: 36px;
+  margin-bottom: 46px;
 }
 
 .product-side__scribble {
   display: block;
-  width: min(240px, 75%);
+  width: min(180px, 75%);
   height: auto;
-  margin: -6px 0 20px;
 }
 
 .product-side__meta {
@@ -113,12 +128,12 @@
 
 /* option groups */
 .product-side__group {
-  margin-top: 24px;
+  margin-top: 46px;
 }
 
 .product-side__label {
-  margin: 0 0 9px;
-  font-size: 1.35rem;
+  margin: 0 0 8px;
+  font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -127,7 +142,7 @@
 .product-side__label span {
   font-weight: 400;
   color: #3b3b3b;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 /* color swatches */
@@ -139,8 +154,8 @@
 }
 
 .product-side__swatch {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   border: 1px solid #9a9a9a;
   background: #fff;
   cursor: pointer;
@@ -168,12 +183,12 @@
 }
 
 .product-side__size {
-  min-width: 42px;
-  height: 38px;
+  min-width: 36px;
+  height: 32px;
   border: 1px solid #a7a7a7;
   background: #fff;
   color: #222;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -191,21 +206,25 @@
 
 /* pricing */
 .product-side__price-row {
-  margin-top: 32px;
+  margin-top: 46px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 }
 
 .product-side__price {
   color: #b84747;
-  font-size: 3.2rem;
+  font-size: 1.5rem;
   line-height: 1;
   font-weight: 500;
 }
 
+.product-side__price--regular {
+  color: #111;
+}
+
 .product-side__old-price {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: #8a8a8a;
   text-decoration: line-through;
   text-transform: lowercase;
@@ -213,7 +232,7 @@
 
 /* action buttons */
 .product-side__actions {
-  margin-top: 16px;
+  margin-top: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
@@ -221,8 +240,8 @@
 
 .product-side__buy,
 .product-side__cart {
-  height: 48px;
-  font-size: 1.3rem;
+  height: 40px;
+  font-size: 1rem;
   letter-spacing: 0.015em;
   text-transform: uppercase;
   cursor: pointer;
@@ -304,8 +323,9 @@
     order: 3;
   }
 
-  .product-gallery {
-    grid-template-columns: 72px 1fr;
+  .product-gallery__thumbnails--detached {
+    overflow-x: auto;
+    flex-wrap: nowrap;
   }
 
   .product-gallery__thumb {
