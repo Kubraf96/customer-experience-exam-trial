@@ -1,6 +1,6 @@
 import "../css/ProductPage.css";
 import ProductGrid from "../components/ProductGrid.jsx";
-import Filterbar from "../components/filterbar.jsx";
+import Filterbar from "../components/filterBar.jsx";
 
 export default function ProductPage() {
   return (
