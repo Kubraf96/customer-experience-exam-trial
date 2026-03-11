@@ -1,28 +1,32 @@
 import "../css/about.css";
+import WhoAreWe from "../assets/whoarewe.png";
+import Grafitti from "../assets/aboutgrafitti.svg";
+import img1 from "../assets/images/enviroment1.jpg";
+import img2 from "../assets/images/enviroment2.jpg";
 
 export default function AboutPage() {
   return (
     <>
-      <header>
-        <h2>About</h2>
+      <header className="about-header">
+        <img src={WhoAreWe} alt="Who Are We" />
+        <img src={Grafitti} alt="Grafitti" />
       </header>
-      <main>
-        <section>
-          <h2>who are we</h2>
-        </section>
-        <section>
-          <h2>environment</h2>
-          <p>
-            At Control, environmental responsibility is at the core of our
-            production philosophy. We prioritize materials and processes that
-            reduce environmental impact and promote sustainability. Our products
-            are designed to last longer, reducing waste and encouraging
-            responsible consumption. By collaborating with partners who share
-            our values of recycling and circular production, we aim to
-            contribute to a future where fashion and environmental care go hand
-            in hand.
-          </p>
-          <section>
+      <main className="about-main">
+        <div className="about-content">
+          <div className="about-text">
+            <h2>environment</h2>
+            <p>
+              At Control, environmental responsibility is at the core of our
+              production philosophy. We prioritize materials and processes that
+              reduce environmental impact and promote sustainability. Our
+              products are designed to last longer, reducing waste and
+              encouraging responsible consumption. By collaborating with
+              partners who share our values of recycling and circular
+              production, we aim to contribute to a future where fashion and
+              environmental care go hand in hand.
+            </p>
+          </div>
+          <div className="about-text">
             <h2>price</h2>
             <p>
               Affordability is important, but it should never come at the
@@ -32,8 +36,16 @@ export default function AboutPage() {
               accessible to more people. Our goal is to prove that responsible
               fashion can be both affordable and beneficial for the planet.
             </p>
-          </section>
-          <section>
+          </div>
+          <div className="img-container">
+            <img src={img1} alt="enviroment1" />
+          </div>
+        </div>
+        <div className="about-content">
+          <div className="img-container">
+            <img src={img2} alt="enviroment2" />
+          </div>
+          <div className="about-text">
             <h2>quality</h2>
             <p>
               Quality is the foundation of everything we produce. We ensure that
@@ -44,8 +56,8 @@ export default function AboutPage() {
               fewer replacements and less waste, which benefits both our
               customers and the environment.
             </p>
-          </section>
-          <section>
+          </div>
+          <div className="about-text">
             <h2>cooperation</h2>
             <p>
               We believe in the power of partnerships. By working together with
@@ -55,8 +67,8 @@ export default function AboutPage() {
               innovate, share resources, and support broader efforts to create a
               more sustainable fashion industry.
             </p>
-          </section>
-        </section>
+          </div>
+        </div>
       </main>
     </>
   );

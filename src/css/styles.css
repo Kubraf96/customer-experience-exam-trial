@@ -6,7 +6,7 @@
   background-color: #181e17;
   background-image: var(--BGswirl);
   background-repeat: repeat-y;
-  background-size: auto;
+  background-size: cover;
 
   --Tekstfarve: #ffffff;
   --Baggrundsfarve: #181e17;
