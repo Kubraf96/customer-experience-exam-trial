@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         <div></div>
         <div>
-          <img src="./src/assets/components/footer.svg" alt="" />
+          <img src="../src/assets/components/footer.svg" alt="" />
         </div>
         <div>
           <h6>Follow us on social media</h6>
