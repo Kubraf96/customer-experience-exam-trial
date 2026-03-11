@@ -1,13 +1,18 @@
 import { NavLink } from "react-router";
 import "../css/almNav.css";
+import navLogo from "../assets/components/whitenav/logo.svg";
 import navLine from "../assets/components/whitenav/navline.svg";
+import searchIcon from "../assets/components/whitenav/search.svg";
+import pinIcon from "../assets/components/whitenav/pin.svg";
+import userIcon from "../assets/components/whitenav/user.svg";
+import cartIcon from "../assets/components/whitenav/cart.svg";
 
 export default function Navbar() {
   return (
     <nav>
       <div className="nav-links">
         <NavLink to="/">
-          <img src="./src/assets/components/whitenav/logo.svg" alt="Logo" />
+          <img src={navLogo} alt="Logo" />
         </NavLink>
         <img src={navLine} alt="line" />
         <NavLink to="/about">About</NavLink>
@@ -19,18 +24,15 @@ export default function Navbar() {
         <NavLink to="/sale">Sale</NavLink>
       </div>
       <div className="nav-icons">
-        <img src="./src/assets/components/whitenav/search.svg" alt="search" />
+        <img src={searchIcon} alt="search" />
         <NavLink to="/pinned">
-          <img
-            src="../src/assets/components/whitenav/pin.svg"
-            alt="pinned pieces"
-          />
+          <img src={pinIcon} alt="pinned pieces" />
         </NavLink>
         <NavLink to="/notfoundpage">
-          <img src="./src/assets/components/whitenav/user.svg" alt="profile" />
+          <img src={userIcon} alt="profile" />
         </NavLink>
         <NavLink to="/cart">
-          <img src="./src/assets/components/whitenav/cart.svg" alt="Cart" />
+          <img src={cartIcon} alt="Cart" />
         </NavLink>
       </div>
     </nav>
