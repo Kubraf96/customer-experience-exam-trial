@@ -55,24 +55,26 @@ export default function ProductInfo({ product }) {
         </div>
       </div>
 
-      {/* PRICE */}
-      <div className="product-side__price-row price">
-        <span
-          className={`product-side__price new ${hasDiscount ? "" : "product-side__price--regular"}`}
-        >
-          {finalPrice} {product.currency}
-        </span>
-        {hasDiscount && (
-          <span className="product-side__old-price old">
-            {product.price} {product.currency}
+      <div className="price-and-buttons">
+        {/* PRICE */}
+        <div className="product-side__price-row price">
+          <span
+            className={`product-side__price new ${hasDiscount ? "" : "product-side__price--regular"}`}
+          >
+            {finalPrice} {product.currency}
           </span>
-        )}
-      </div>
+          {hasDiscount && (
+            <span className="product-side__old-price old">
+              {product.price} {product.currency}
+            </span>
+          )}
+        </div>
 
-      {/* BUTTONS */}
-      <div className="product-side__actions actions">
-        <button className="product-side__buy buy">BUY PRODUCT</button>
-        <button className="product-side__cart cart">ADD TO CART</button>
+        {/* BUTTONS */}
+        <div className="product-side__actions actions">
+          <button className="buy blackbutton">BUY PRODUCT</button>
+          <button className="cart whitebutton">ADD TO CART</button>
+        </div>
       </div>
     </div>
   );

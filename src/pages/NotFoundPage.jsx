@@ -8,7 +8,7 @@ export default function NotFoundPage() {
       </header>
       <main className="not-found">
         <p>Sorry, the page you're looking for doesn't exist.</p>
-        <Link to="/" className="not-found-link">
+        <Link to="/" className="whitebutton">
           Go back home
         </Link>
       </main>

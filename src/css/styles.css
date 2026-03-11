@@ -6,7 +6,7 @@
   background-color: #181e17;
   background-image: var(--BGswirl);
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: auto;
 
   --Tekstfarve: #ffffff;
   --Baggrundsfarve: #181e17;
@@ -96,34 +96,11 @@ main {
   padding: 2rem;
 }
 
-/* 404 */
-.not-found-title {
-  font-size: 5rem;
-}
-
-.not-found {
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-.not-found p {
-  margin-bottom: 2rem;
-}
-
-.not-found-link {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #4a50c7;
-  padding: 0.6rem 1.5rem;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-.not-found-link:hover {
-  background-color: #5a60d7;
-}
+/* buttons */
 
 .whitebutton {
+  text-decoration: none;
+  width: fit-content;
   background-color: var(--tekst_hvid);
   border: 3px solid transparent;
   cursor: pointer;
@@ -141,6 +118,8 @@ main {
 }
 
 .blackbutton {
+  text-decoration: none;
+  width: fit-content;
   background-color: var(--Card__Cardtiteltext);
   color: var(--tekst_hvid);
   border: 3px solid transparent;
@@ -158,4 +137,20 @@ main {
   color: var(--tekst_hvid);
   cursor: pointer;
   padding: 1rem 2rem;
+}
+
+/* 404 */
+.not-found-title {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem;
+}
+
+.not-found p {
+  margin-bottom: 8rem;
 }
