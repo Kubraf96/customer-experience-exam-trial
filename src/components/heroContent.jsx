@@ -5,7 +5,7 @@ export default function HeroContent() {
   return (
     <div className="hero-content">
       <div className="img-container image1">
-        <Link to="/productPage">
+        <Link to="/products">
           <div className="content-title">
             <h2 data-text="gear up for spring">gear up for spring</h2>
           </div>
@@ -16,7 +16,7 @@ export default function HeroContent() {
         </Link>
       </div>
       <div className="img-container image2">
-        <Link to="/news">
+        <Link to="/products">
           <div className="content-title">
             <h2 data-text="statement pieces">statement pieces</h2>
           </div>

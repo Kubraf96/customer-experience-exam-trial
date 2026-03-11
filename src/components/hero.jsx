@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/hero.css";
+import { Link } from "react-router";
 
 export default function Hero() {
   const slideClasses = ["slide1", "slide2", "slide3", "slide4"];
@@ -54,9 +55,11 @@ export default function Hero() {
               </button>
               <div className="hero-button">
                 <h5>spring collection</h5>
-                <button className="whitebutton">
-                  <h5>shop now</h5>
-                </button>
+                <Link to="/products">
+                  <button className="whitebutton">
+                    <h5>shop now</h5>
+                  </button>
+                </Link>
               </div>
 
               <button
