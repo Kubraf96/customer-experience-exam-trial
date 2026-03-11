@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../css/hero.css";
 import { Link } from "react-router";
+import arrowLeft from "../assets/components/arrow-left.svg";
+import arrowRight from "../assets/components/arrow-right.svg";
 
 export default function Hero() {
   const slideClasses = ["slide1", "slide2", "slide3", "slide4"];
@@ -47,10 +49,7 @@ export default function Hero() {
                 aria-label="Previous"
               >
                 <span className="prev-arrow">
-                  <img
-                    src="./src/assets/components/arrow-left.svg"
-                    alt="Previous"
-                  />
+                  <img src={arrowLeft} alt="Previous" />
                 </span>
               </button>
               <div className="hero-button">
@@ -68,10 +67,7 @@ export default function Hero() {
                 aria-label="Next"
               >
                 <span className="next-arrow">
-                  <img
-                    src="./src/assets/components/arrow-right.svg"
-                    alt="Next"
-                  />
+                  <img src={arrowRight} alt="Next" />
                 </span>
               </button>
             </div>
