@@ -15,12 +15,13 @@ export default function Navbar() {
           <img src={navLogo} alt="Logo" />
         </NavLink>
         <img src={navLine} alt="line" />
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/products">Products</NavLink>
         <img src={navLine} alt="line" />
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/about">About us</NavLink>
         <img src={navLine} alt="line" />
-        <NavLink to="/products">Product</NavLink>
+        <NavLink to="/notyetmade">Contact</NavLink>
         <img src={navLine} alt="line" />
+
         <NavLink to="/sale">Sale</NavLink>
       </div>
       <div className="nav-icons">
