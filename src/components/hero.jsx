@@ -48,7 +48,7 @@ export default function Hero() {
               >
                 <span className="prev-arrow">
                   <img
-                    src="../src/assets/components/arrow-left.svg"
+                    src="./src/assets/components/arrow-left.svg"
                     alt="Previous"
                   />
                 </span>
@@ -69,7 +69,7 @@ export default function Hero() {
               >
                 <span className="next-arrow">
                   <img
-                    src="../src/assets/components/arrow-right.svg"
+                    src="./src/assets/components/arrow-right.svg"
                     alt="Next"
                   />
                 </span>
