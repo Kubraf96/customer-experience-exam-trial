@@ -18,7 +18,7 @@ header h1 {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  background-color: #181e17;
+  background-color: var(--Baggrundsfarve);
 }
 
 .product-card {
