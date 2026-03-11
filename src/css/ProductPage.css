@@ -103,6 +103,13 @@ header h1 {
   margin: 0;
   text-align: left;
 }
+
+.product-price--old {
+  text-decoration: line-through;
+  text-transform: lowercase;
+  color: #888;
+}
+
 .deal-badge {
   position: absolute;
   top: 136px;
