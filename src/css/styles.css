@@ -28,8 +28,8 @@
     "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   --font-display: "Lacquer", serif;
-  --active-nav: url("./src/assets/components/active-nav.svg");
-  --BGswirl: url("./src/assets/BGswirl.svg");
+  --active-nav: url("../src/assets/components/active-nav.svg");
+  --BGswirl: url("../src/assets/BGswirl.svg");
 }
 
 /* define text styles */
