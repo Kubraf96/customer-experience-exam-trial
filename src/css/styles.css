@@ -141,17 +141,20 @@ main {
 
 .blackbutton {
   background-color: var(--Card__Cardtiteltext);
+  color: var(--tekst_hvid);
   border: 3px solid transparent;
   cursor: pointer;
   padding: 1rem 2rem;
 }
 .blackbutton h5 {
   margin: 0%;
+  color: var(--tekst_hvid);
 }
 
 .blackbutton:hover {
   background-color: var(--Card__Cardtiteltext);
   border: 3px solid var(--CTA__CTAgreen);
+  color: var(--tekst_hvid);
   cursor: pointer;
   padding: 1rem 2rem;
 }

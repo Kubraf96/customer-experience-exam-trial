@@ -1,11 +1,11 @@
 import "../css/ProductPage.css";
-import ProductGrid from "../components/ProductGrid";
-import FilterBar from "../components/filterbar";
+import ProductGrid from "../components/ProductGrid.jsx";
+import Filterbar from "../components/filterBar.jsx";
 
 export default function ProductPage() {
   return (
     <div className="filterbar-container">
-      <FilterBar />
+      <Filterbar />
       <header>
         <h1>Products</h1>
       </header>
