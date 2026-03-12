@@ -1,5 +1,5 @@
 import { useState } from "react";
-import scribble from "../assets/scribble.svg";
+import Scribble from "../assets/Scribble.svg";
 
 export default function ProductInfo({ product }) {
   const [selectedColor, setSelectedColor] = useState(
@@ -15,7 +15,7 @@ export default function ProductInfo({ product }) {
       <h1 className="product-side__title">{product.title}</h1>
       <img
         className="product-side__scribble"
-        src={scribble}
+        src={Scribble}
         alt=""
         aria-hidden="true"
       />
