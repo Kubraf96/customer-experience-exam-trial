@@ -8,6 +8,7 @@ export default function ProductInfo({ product }) {
   const [selectedSize, setSelectedSize] = useState(null);
 
   const hasDiscount = Number(product.discountPrice) < Number(product.price);
+  // = er if, og ? er true, og : er false, så hvis der er en discountPrice og den er mindre end price, så vis discountPrice ellers vis price
   const finalPrice = hasDiscount ? product.discountPrice : product.price;
 
   return (
@@ -19,7 +20,9 @@ export default function ProductInfo({ product }) {
         alt=""
         aria-hidden="true"
       />
-
+      // aria-hidden betyder, at det billede ikke er vigtigt for skærmlæsere, og
+      at de kan ignorere det, hvilket er perfekt til dekorative elementer som
+      dette.
       {/* COLORS */}
       <div className="product-side__group colors">
         <p className="product-side__label">
@@ -36,7 +39,6 @@ export default function ProductInfo({ product }) {
           ))}
         </div>
       </div>
-
       {/* SIZES */}
       <div className="product-side__group sizes">
         <p className="product-side__label">
@@ -54,7 +56,6 @@ export default function ProductInfo({ product }) {
           ))}
         </div>
       </div>
-
       <div className="price-and-buttons">
         {/* PRICE */}
         <div className="product-side__price-row price">

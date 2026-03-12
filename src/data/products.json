@@ -220,7 +220,7 @@
     "stock": 23,
     "rating": 5.0,
     "reviewsCount": 3,
-    "colors": ["Black, Green"],
+    "colors": ["Black", "Green"],
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "material": "100% cotton",
     "tags": [
@@ -265,7 +265,7 @@
     "stock": 45,
     "rating": 4.6,
     "reviewsCount": 69,
-    "colors": ["Black Wash, Brown wash, Off White"],
+    "colors": ["Black Wash", "Brown wash", "Off White"],
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
     "material": "100% cotton",
     "tags": ["Oversized, Tee, Gothic, Graphic, Cotton"]

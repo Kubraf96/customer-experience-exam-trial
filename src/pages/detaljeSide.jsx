@@ -6,7 +6,8 @@ import ProductInfo from "../components/ProductInfo";
 import Accordion from "../components/DropDownBar";
 import "../css/ProductSide.css";
 
-// Fallback product in case products.json is empty or invalid
+// Dette er en fallback.
+// Det er en placeholder der benyttes i tilfælde af, at der ikke findes et produkt med det id, som brugeren har skrevet i URL'en.
 const fallbackProduct = {
   id: "",
   images: [],
@@ -36,6 +37,7 @@ export default function DetaljePage() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const selectedImage =
     product.images?.[activeImageIndex] || product.images?.[0] || "";
+  // Koden her finder det billede som matcher produktet. Spørgsmål tegnet fungere som et safety net, der gør det ikke "crasher" hvis der ikke er nogle billeder i arrayet, og så viser det ingenting i stedet for.
 
   return (
     <div className="product-page product-page-layout">

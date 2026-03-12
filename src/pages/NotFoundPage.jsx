@@ -15,3 +15,5 @@ export default function NotFoundPage() {
     </>
   );
 }
+
+// Alle links osv, der ikke har nogen "route" flyver brugeren direkte til denne "error" side.

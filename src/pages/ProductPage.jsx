@@ -15,3 +15,8 @@ export default function ProductPage() {
     </div>
   );
 }
+
+// Den her er dejlig nem
+// Vi importerer vores 2 components.
+// Filterbaren og ProductGrid.
+// Så kan vi se dem på siden, og ProductGrid henter alle vores produkter fra JSON filen, og viser dem i et grid.
