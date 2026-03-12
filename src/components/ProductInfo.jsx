@@ -20,9 +20,7 @@ export default function ProductInfo({ product }) {
         alt=""
         aria-hidden="true"
       />
-      // aria-hidden betyder, at det billede ikke er vigtigt for skærmlæsere, og
-      at de kan ignorere det, hvilket er perfekt til dekorative elementer som
-      dette.
+
       {/* COLORS */}
       <div className="product-side__group colors">
         <p className="product-side__label">
