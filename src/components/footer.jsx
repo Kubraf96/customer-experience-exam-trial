@@ -1,4 +1,5 @@
 import "../css/footer.css";
+import { Link } from "react-router";
 
 export default function Footer() {
   return (
@@ -23,7 +24,9 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h6>Our policies</h6>
+          <Link to="/about">
+            <h6>Our policies</h6>
+          </Link>
           <p>
             <a href="#">Accessibility </a>
           </p>
@@ -38,7 +41,9 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h6>Our company</h6>
+          <Link to="/about">
+            <h6>Our company</h6>
+          </Link>
           <p>
             <a href="#">Sustainability</a>
           </p>
@@ -78,7 +83,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <p>© 2023 Your Company. All rights reserved.</p>
+      <p>© 2026 control. All rights reserved.</p>
     </footer>
   );
 }
